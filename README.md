@@ -73,7 +73,7 @@ Using the DApp is straightforward. Start Metamask, clear the history and use the
 * [Web3Js Reference](https://github.com/ethereum/wiki/wiki/JavaScript-API)
 
 
-
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
 ----
 ```javascript
 
@@ -83,3 +83,4 @@ if (_.isAwesome(thisRepo)) {
 
 ```
 ----
+⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
