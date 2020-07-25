@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FlightSurety</title>
+    <link href="https://fonts.googleapis.com/css?family=Bangers|Press+Start+2P|Work+Sans:300,400,700,900" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand bangers" href="#">Flight Surety</a>
+        <ul class="nav navbar-nav list-inline ml-auto">
+            <li class="list-inline-item work fs16 fw300" id="appStatus">App Operational Status: </li>
+            <li class="list-inline-item">
+                <!--<button class="btn" id="changeOperationalStatus">CHANGE STATUS</button>-->
+            </li>
+        </ul>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+
+    <div class="d-md-flex h-md-100 align-items-center">
+
+        <!-- First Half -->
+
+        <div class="col-md-6 p-0 bg-indigo h-md-100" id="leftdiv">
+            <div class="text-white align-items-center h-100 p-5 text-center justify-content-center">
+                <div class="row">
+                    <div class="dashboard col-12">
+                        <h6 class="twop">Add an airline</h6>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="dashboard col-12">
+                        <h6 class="twop">Airline send funds</h6>
+                        <hr />
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="dashboard col-12">
+                        <h6 class="twop">Add an airline</h6>
+                        <hr />
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Second Half -->
+
+        <div class="col-md-6 p-0 bg-white h-md-100 loginarea">
+            <div class="d-md-flex align-items-center h-md-100 p-5 justify-content-center">
+                Second half content here
+            </div>
+        </div>
+
+    </div>
+
+
+    <main class="container">
+
+        <div id="display-wrapper" class="top-20">
+        </div>
+        <div class="row top-20">
+            <label class="form">Flight</label> <input type="text" id="flight-number"> <btn class="btn btn-primary" id="submit-oracle">Submit to Oracles</btn>
+        </div>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+body {
+    background: url('../img/butler-964007_1920.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+.fw400 {
+    font-weight: 400!important;
+}
+
+.fw300 {
+    font-weight: 300!important;
+}
+
+.fw700 {
+    font-weight: 700!important;
+}
+
+.fw800 {
+    font-weight: 800!important;
+}
+.fw900 {
+    font-weight: 900!important;
+}
+
+.ws {
+    color: whitesmoke;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    background: white;
+    border-radius: 6px 0px 0px 6px;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    font-size: 16px;
+    font-family: 'Bangers', cursive;
+    width: 80px;
+}
+
+input {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 0px 6px 3px 0px;
+    border: 1px solid whitesmoke;
+    margin-right: 10px;
+}
+
+input[type=number] {
+    width: 90px;
+}
+
+button {
+    padding: 4px;
+    border-radius: 0px 0px 0px 0px;
+    font-size: 18px;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    min-width: 140px;
+}
+
+h1, h2 {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #AAA;
+    font-size: 32px;
+}
+
+h3 {
+    font-weight: normal;
+    color: #AAA;
+    font-size: 24px;
+}
+
+.black {
+    color: black;
+}
+
+#balance {
+    color: black;
+}
+
+.hint {
+    color: #666;
+}
+
+
+.mt128 {
+    margin-top: 128px;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+
+.mt10 {
+    margin-top: 10px;
+}
+
+
+.mt30 {
+    margin-top: 30px;
+}
+
+
+.mt40 {
+    margin-top: 40px;
+}
+
+.ml10 {
+    margin-left: 10px;
+}
+
+.pl10 {
+    padding-left: 10px;
+}
+
+.smoke {
+    color: whitesmoke;
+}
+
+.niceTile {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    border: 6px solid whitesmoke;
+    padding: 6px;
+    font-size: 24px;
+    font-family: 'Bangers', cursive;
+    width: 280px;
+}
+
+.appTitle {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    border: 6px solid whitesmoke;
+    padding: 14px;
+    font-size: 50px;
+    font-family: 'Bangers', cursive;
+    margin-top: 20px;
+    line-height: 40px;
+}
+
+span.subTitle {
+    font-size: 25px!important;
+    line-height: 25px;
+}
+
+#status {
+    color: whitesmoke;
+    font-size: 32px;
+    font-family: 'Bangers', cursive;
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.ml20 {
+    margin-left: 60px!important;
+}
+
+.mr20 {
+    margin-right: 60px!important;
+}
+
+#toptitle {
+    font-family: Orbitron!important;
+    font-size: 90px;
+}

@@ -1,0 +1,320 @@
+.work {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.kaus {
+    font-family: 'Kaushan Script',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
+}
+
+.smoke {
+    color: whitesmoke!important;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+textarea {
+    min-height: 146px;
+}
+
+.appTite {
+    color: whitesmoke!important;
+}
+
+header.masthead {
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(0deg,rgba(90,90,90,0.6),rgba(120,120,120,0.6)), url("../img/a5.jpg")!important;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+
+section#passengers {
+    background-color: #212529;
+    background-image: linear-gradient(0deg,rgba(90,25,32,0.2),rgba(80,0,240,0.6)),  url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#flights {
+    background-color: #212529;
+    background-image: linear-gradient(0deg,rgba(90,25,32,0.2),rgba(240,0,90,0.6)),  url(../img/map-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.btn-primary {
+    background-color: #ff8000;
+    border-color: #ffffff;
+}
+
+
+.form-group input, section#contact .form-group textarea {
+    padding: 20px;
+}
+
+.form-group select {
+    padding: 20px;
+    line-height: 1.5;
+    height: auto;
+}
+
+
+.form-group input.form-control {
+    height: auto;
+}
+
+.btn-primary.normal {
+    padding: 14px;
+}
+
+
+.table {
+    background: whitesmoke!important;
+}
+
+#allEvents {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: black;
+    color: lawngreen;
+    height: 100px;
+    padding-top: 14px;
+    overflow: auto!important;
+    z-index: 60000;
+}
+
+#ftc-events {
+    font-family: "Courier New";
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+
+#ftc-events li {
+    padding: 0px!important;
+    text-transform: uppercase;
+    width: 100%;
+}
+
+
+#toptitle {
+    font-family: Orbitron!important;
+    font-size: 90px;
+}
+
+.orbitron {
+    font-family: 'Orbitron', sans-serif!important;
+}
+
+.led-box  {
+    margin-top: -3px;
+}
+
+.led-red {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-color: #F00;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+    -webkit-animation: blinkRed 0.5s infinite;
+    -moz-animation: blinkRed 0.5s infinite;
+    -ms-animation: blinkRed 0.5s infinite;
+    -o-animation: blinkRed 0.5s infinite;
+    animation: blinkRed 0.5s infinite;
+}
+
+.led-green {
+    margin: 0 auto;
+    width: 24px;
+    height: 24px;
+    background-color: #ABFF00;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+
+@media (min-width: 768px) {
+    header.masthead .intro-text {
+        padding-top: 150px;
+    }
+    header.masthead .intro-text .intro-lead-in {
+        font-size: 24px!important;
+    }
+}
+
+
+.pane {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: .05em;
+    border: .01em solid #444;
+    position: relative;
+    background: #222;
+    text-align: center;
+    line-height: 1;
+    font-size: 80px;
+    color: #fff;
+    font-family: monospace;
+    box-shadow:
+            0px .02em 0 #ccc,
+            0px .05em 0 #000;
+    text-shadow: -1px -2px 2px rgba(0,0,0,1);
+    z-index: 50;
+}
+
+
+.pane:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    border-top: 2px solid #000;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+    width: 100%;
+    height: 0px;
+    opacity: .8;
+    z-index: 10;
+    margin-top: -1px
+}
+
+
+.flightTable {
+    background: #999999;
+    border-radius: 8px;
+    border: 8px solid whitesmoke;
+    margin: 30px auto;
+}
+
+.flightTable tr {
+    margin-top: 8px;
+}
+
+.paneSmall {
+    width: .9em;
+    height: .9em;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: .05em;
+    border: .01em solid #444;
+    position: relative;
+    background: #222;
+    text-align: center;
+    line-height: 1;
+    font-size: 32px;
+    color: #fff;
+    font-family: monospace;
+    box-shadow:
+            0px .02em 0 #ccc,
+            0px .05em 0 #000;
+    text-shadow: -1px -2px 2px rgba(0,0,0,1);
+    z-index: 50;
+}
+
+
+.paneSmall:after {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    content: "";
+    border-top: 2px solid #000;
+    border-bottom: 2px solid rgba(255,255,255,.3);
+    width: 100%;
+    height: 0px;
+    opacity: .8;
+    z-index: 10;
+    margin-top: -1px
+}
+
+
+footer {
+    background: #3c3c3c;
+    margin-bottom: 100px;
+}
+
+ul.social-buttons li a {
+    font-size: 20px;
+    line-height: 50px;
+    display: block;
+    width: 50px;
+    height: 50px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    color: #000000;
+    border-radius: 100%;
+    outline: 0;
+    background-color: #ffffff;
+}
+
+
+.mb10 {
+    margin-bottom: 10px!important;
+}
+
+.mb20 {
+    margin-bottom: 20px!important;
+}
+
+.mb30 {
+    margin-bottom: 30px!important;
+}
+
+.mb40 {
+    margin-bottom: 40px!important;
+}
+
+.mb5 {
+    margin-bottom: 50px!important;
+}
+
+
+.mt10 {
+    margin-top: 10px!important;
+}
+
+.mt20 {
+    margin-top: 20px!important;
+}
+
+.mt30 {
+    margin-top: 30px!important;
+}
+
+.mt40 {
+    margin-top: 40px!important;
+}
+
+.mt50 {
+    margin-top: 50px!important;
+}
+
+.fs22 {
+    font-size: 18px!important;
+    font-weight: 300!important;
+}
+
+.btn-primary.disabled, .btn-primary:disabled {
+    color: #fff;
+    background-color: red;
+    border-color: inherit;
+    cursor: not-allowed;
+    /* background-color: #007bff; */
+    /* border-color: #007bff; */
+}
+
+span.underlined {
+    text-decoration: underline;
+}

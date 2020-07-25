@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>FlightSurety DApp</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Bangers|Work+Sans:300,400,700,900|Orbitron|Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a
+          class="navbar-brand js-scroll-trigger appTite orbitron"
+          href="#page-top"
+          id="toptitle"
+          >Flight Surety DApp</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#flights">AIRLINES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#passengers"
+                >PASSENGERS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="operational" title="Operational status">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-lead-in orbitron fs30 fw300">
+            Flight Delay Insurance on the Ethereum Blockchain
+          </div>
+          <div class="intro-heading text-uppercase orbitron">
+            <div class="pane">F</div>
+            <div class="pane">L</div>
+            <div class="pane">I</div>
+            <div class="pane">G</div>
+            <div class="pane">H</div>
+            <div class="pane">T</div>
+            <br />
+            <div class="pane">S</div>
+            <div class="pane">U</div>
+            <div class="pane">R</div>
+            <div class="pane">E</div>
+            <div class="pane">T</div>
+            <div class="pane">Y</div>
+            <br />
+            <div class="pane">D</div>
+            <div class="pane">A</div>
+            <div class="pane">P</div>
+            <div class="pane">P</div>
+          </div>
+          <a
+            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+            href="#flights"
+            >AIRLINES</a
+          >
+          <a
+            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+            href="#passengers"
+            >PASSENGERS</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Contact -->
+    <section id="flights">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke">
+              <div class="pane">A</div>
+              <div class="pane">I</div>
+              <div class="pane">R</div>
+              <div class="pane">L</div>
+              <div class="pane">I</div>
+              <div class="pane">N</div>
+              <div class="pane">E</div>
+              <div class="pane">S</div>
+            </h2>
+            <hr class="mb-4" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke">
+              FUND
+              <span class="underlined"
+                ><span id="fundingPrice" class="underlined"></span> ETH</span
+              >
+              TO INSURANCE SCHEME
+            </h2>
+            <p class="text-center">
+              <button
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                id="fundAirline"
+              >
+                <i class="fas fa-money-bill-alt"></i>&nbsp;SEND FUND
+              </button>
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke mt30">
+              REGISTER AIRLINE
+            </h2>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">AIRLINE ADDRESS</div>
+                </div>
+                <input
+                  class="form-control"
+                  id="newAirline"
+                  name="newAirline"
+                  type="text"
+                  placeholder="Airline address .."
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                id="registerAirline"
+              >
+                <i class="fas fa-save"></i>&nbsp;REGISTER AIRLINE
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke mt30">
+              REGISTER FLIGHTS
+            </h2>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">FLIGHT #</div>
+                </div>
+                <input
+                  class="form-control"
+                  id="flightNumber"
+                  name="flightNumber"
+                  type="text"
+                  placeholder="Flight #"
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">DEPARTURE</div>
+                </div>
+                <input
+                  class="form-control"
+                  id="departure"
+                  name="departure"
+                  type="text"
+                  placeholder="Flying from ..."
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">DESTINATION</div>
+                </div>
+                <input
+                  class="form-control"
+                  id="destination"
+                  name="destination"
+                  type="text"
+                  placeholder="Flying to ..."
+                />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <button
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                id="registerFlight"
+              >
+                <i class="fas fa-save"></i>&nbsp;REGISTER FLIGHT
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="passengers">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke">
+              <div class="pane">P</div>
+              <div class="pane">A</div>
+              <div class="pane">S</div>
+              <div class="pane">S</div>
+              <div class="pane">E</div>
+              <div class="pane">N</div>
+              <div class="pane">G</div>
+              <div class="pane">E</div>
+              <div class="pane">R</div>
+              <div class="pane">S</div>
+            </h2>
+            <hr class="mb-4" />
+          </div>
+        </div>
+
+        <!-- start flights -->
+
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase smoke">
+              PURCHASE FLIGHT DELAY INSURANCE FOR
+              <span class="underlined"><span id="insPrice"></span> ETH</span>
+              <br /><span class="fs22"
+                ><i
+                  >update the flights list to get the latest available
+                  flights!</i
+                ></span
+              >
+            </h2>
+            <div class="form-group">
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">FLIGHT</div>
+                </div>
+                <select class="form-control" id="flightsPurchase"></select>
+                <div class="input-group-append">
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                    id="purchaseForFlight"
+                  >
+                    <i class="fas fa-money-bill-alt"></i>&nbsp;&nbsp;PURCHASE
+                  </button>
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                    id="statusForFlight"
+                  >
+                    <i class="fas fa-sync"></i>&nbsp;&nbsp;FETCH STATUS
+                  </button>
+                </div>
+                <p class="help-block text-danger col-md-12 mt20">
+                  <span class="fs22 smoke"
+                    ><i
+                      >if the list is empty check that the server is running and
+                      add flights!</i
+                    ></span
+                  >
+                </p>
+                <p class="mt20 col-lg-12 text-center">
+                  <button
+                    class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                    id="updateFlightsList"
+                  >
+                    <i class="fas fa-sync"></i>&nbsp;UPDATE FLIGHTS LIST
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 text-center mt50">
+            <h2 class="section-heading text-uppercase smoke mb40">
+              YOU CAN CLAIM
+              <span class="underlined"><span id="claimAmount"></span> ETH</span>
+              FOR NOW! <br /><span class="fs22"
+                ><i
+                  >just keep purchasing insurance and rolling the flight status
+                  to try your luck!</i
+                ></span
+              >
+            </h2>
+            <p>
+              <button
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                id="balance"
+              >
+                <i class="fas fa-sync"></i>&nbsp;UPDATE BALANCE
+              </button>
+              <button
+                class="btn btn-primary btn-xl text-uppercase js-scroll-trigger orbitron"
+                id="claim"
+              >
+                <i class="fas fa-money-bill-alt"></i>&nbsp;CLAIM PREMIUM
+              </button>
+            </p>
+          </div>
+        </div>
+
+        <!-- end flights -->
+      </div>
+    </section>
+
+    <div id="allEvents">
+      <div class="container">
+        <div class="col-md-12">
+          <ul id="ftc-events" class="text-center"></ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4"></div>
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item">
+                <a href="https://github.com/AkroutiHamza">
+                  <i class="fab fa-github"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="list-inline quicklinks"></ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
